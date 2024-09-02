@@ -150,3 +150,15 @@ for (const auto& edge : g) {
   - Outputs the graph to an output stream `os`.
   - **Returns:** The output stream.
 
+# Testing
+
+Basic tests are provided in `gdwg_graph.test.cpp`. To run the test, first build a Makefile using CMake:
+```
+$ cmake -B build
+```
+Then compile and run the test (Linux environment):
+```
+$ cd build
+make test_sum1
+./test_sum1
+```

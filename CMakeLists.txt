@@ -63,7 +63,6 @@ link_libraries(catch2_main)
 # -------------- DO NOT MODIFY ABOVE THIS LINE --------------- #
 # ------------------------------------------------------------ #
 
-add_library(gdwg_graph src/gdwg_graph.h src/gdwg_graph.cpp)
 link_libraries(gdwg_graph)
 
 add_executable(client src/client.cpp)

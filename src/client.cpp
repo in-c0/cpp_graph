@@ -4,11 +4,7 @@
 #include <string>
 
 auto main() -> int {
-	// These are commented out right now
-	//  because withour your implementation
-	//  it will not compile. Uncomment them
-	//  once you've done the work
-	/*auto g = gdwg::graph<std::string, int>{};
+	auto g = gdwg::graph<std::string, int>{};
 	g.insert_node("hello");
 	g.insert_node("how");
 	g.insert_node("are");
@@ -39,5 +35,5 @@ auto main() -> int {
 	    } else {
 	        std::cout << "(no weight)\n";
 	    }
-	}*/
+	}
 }
